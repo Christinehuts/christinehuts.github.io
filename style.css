@@ -1,0 +1,72 @@
+h1 {color: white; 
+    font-family: helvetica;
+    font-size: 85px; }
+p {color: white; 
+   font-family: helvetica;
+   font-size: 60px; 
+   width: 900px;
+   font-weight: bold; }
+h2 {color: pink;
+    font-family: helvetica;
+    font-size: 70px;
+    font-style: italic;
+    }
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  position: absolute;
+  top: 0;
+  font-size: 25px;
+  font-family: helvetica;
+}
+
+li img  {
+  width: 304px;
+  height: 228px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+    width: 304px;
+  height: 228px;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+html { 
+  background: url(http://www.iapss.org/wp-content/uploads/2014/10/London1a.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
